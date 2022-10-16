@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d2cbe0b-81c4-4c64-9200-03d5cc835e8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai1/Bai1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai2/Bai2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai3/Bai3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai4/Bai4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai5/Bai5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai5/BaiTap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai6/BaiTap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai6/Datetimes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai6/Numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai6/Strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai7/BaiTap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai7/List.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +32,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2GCib2MFjgwLMNSZZ1XwgPORoPP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -30,9 +45,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -56,5 +72,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
