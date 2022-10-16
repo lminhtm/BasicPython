@@ -9,7 +9,7 @@ if loai_xe == 4 or loai_xe == 7:
     else:
         tien_cho = 0
 
-    # Tien di chuyen
+    # Cuoc phi
     if loai_xe == 4:
         phi_mo_cua = 11000
         phi_30 = 15300
@@ -18,10 +18,24 @@ if loai_xe == 4 or loai_xe == 7:
         phi_mo_cua = 12000
         phi_30 = 16100
         phi_31 = 13800
+
+    # Tien di chuyen
+    """
     if so_km <= 31:
         tien_di_chuyen = phi_mo_cua + (so_km - 0.8) * phi_30
     else:
         tien_di_chuyen = phi_mo_cua + (31 - 0.8) * phi_30 + (so_km - 31) * phi_31
+    """
+    tien_di_chuyen = 0
+    so_km_bac_thang = so_km
+    if so_km_bac_thang >= 31:
+        tien_di_chuyen += (so_km_bac_thang - 31) * phi_31
+        so_km_bac_thang = 31
+    if so_km_bac_thang > 0.8:
+        tien_di_chuyen += (so_km_bac_thang - 0.8) * phi_30
+        so_km_bac_thang = 0.8
+    if so_km_bac_thang > 0:
+        tien_di_chuyen += phi_mo_cua
 
     # Tien cuoc
     tien_cuoc = tien_cho + tien_di_chuyen
