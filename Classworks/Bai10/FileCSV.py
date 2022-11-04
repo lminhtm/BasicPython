@@ -1,6 +1,8 @@
-import csv
+"""
+Bai10. FILE CSV
+"""
 
-# File CSV
+import csv
 
 # Open + read
 def read_csv_file(filename):

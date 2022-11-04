@@ -1,3 +1,7 @@
+"""
+Bai7. LIST
+"""
+
 # Khai bao
 integers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 floats = [1.2, 4.5]

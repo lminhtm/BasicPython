@@ -1,3 +1,7 @@
+"""
+Bai6. STRINGS
+"""
+
 # Basic
 str = "nguyen du"
 print(str.capitalize())

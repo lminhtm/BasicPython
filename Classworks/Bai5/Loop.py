@@ -1,4 +1,7 @@
 """
+Bai5. LOOP
+"""
+
 j = int(input("Nhập số bắt đầu: "))
 n = int(input("Nhập số kết thúc: "))
 if j > n:
@@ -10,7 +13,6 @@ while j <= n:
         print(j, " x", i, "= ", j*i)
         i += 1
     j += 1
-"""
 
 for char in "Minh":
     print("Character: %c" %char)
@@ -33,7 +35,6 @@ for letter in "Phuong":
         break
     print("Letter:", letter)
 
-"""
 i = 10
 while i > 0:
     if i % 2 == 0:
@@ -42,7 +43,6 @@ while i > 0:
     if i == 5:
         break
 print("end")
-"""
 
 print("Chuong trinh tim so nguyen to")
 val = int(input("Nhap so nguyen duong: "))

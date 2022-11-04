@@ -1,3 +1,7 @@
+"""
+Bai4. CONDITION
+"""
+
 diem_tb = eval(input("Nhap diem trung binh: "))
 
 """

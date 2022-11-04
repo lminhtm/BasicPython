@@ -1,3 +1,7 @@
+"""
+Bai8. FUNCTION
+"""
+
 import  math
 from operator import add
 from functools import reduce

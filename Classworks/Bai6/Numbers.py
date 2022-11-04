@@ -1,3 +1,7 @@
+"""
+Bai6. NUMBERS
+"""
+
 import math
 import random
 

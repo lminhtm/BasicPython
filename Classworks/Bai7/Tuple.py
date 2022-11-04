@@ -1,3 +1,7 @@
+"""
+Bai7. TUPLE
+"""
+
 # Khai bao
 tup1 = (1, 2, 3, 4)
 

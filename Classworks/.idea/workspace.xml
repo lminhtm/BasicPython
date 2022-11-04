@@ -2,29 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d2cbe0b-81c4-4c64-9200-03d5cc835e8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Bai10/BaiTap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai10/FileCSV.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai10/FileIO.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai10/Files/HocSinh.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai10/Files/bai_tho.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai10/Files/file1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai10/Files/file2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai10/Files/iris_setosa.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai7/Dictionary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai7/Set.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai7/Tuple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai8/BaiTap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai8/Function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai9/Module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai9/diem_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai9/sublibs/string_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai2/Variable.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai1/Bai1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bai1/Hello.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai2/Bai2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bai10/Files/HocSinh2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai3/Bai3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bai3/Operator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai4/Bai4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bai4/Condition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai5/Bai5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bai5/Loop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai1/Hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bai1/Hello.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai10/FileCSV.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bai10/FileCSV.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai10/FileIO.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bai10/FileIO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai3/Operator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bai3/Operator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai4/Condition.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bai4/Condition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai5/BaiTap.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bai5/BaiTap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai5/Loop.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bai5/Loop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai6/Datetimes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bai6/Datetimes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai6/Numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bai6/Numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai6/Strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bai6/Strings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bai7/BaiTap.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bai7/BaiTap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai7/Dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bai7/Dictionary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai7/List.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bai7/List.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai7/Set.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bai7/Set.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai7/Tuple.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bai7/Tuple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai8/Function.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bai8/Function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai9/Module.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bai9/Module.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,14 +48,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "editor.preferences.folding"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="BaiTap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Classworks" />

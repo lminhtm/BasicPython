@@ -1,5 +1,6 @@
 import math
-"""
+
+# Bai1
 start = int(input("Nhap start: "))
 end = int(input("Nhap end: "))
 for number in range(start, end + 1):
@@ -9,9 +10,8 @@ for number in range(start, end + 1):
                 break
         else:
             print(number, end=" ")
-"""
 
-"""
+# Bai2
 n = int(input("Nhap n: "))
 n1 = 0
 n2 = 1
@@ -20,8 +20,8 @@ for _ in range(0, n):
     fibo = n1 + n2
     n1 = n2
     n2 = fibo    12345 -> 54321
-"""
 
+# Bai3
 n = int(input("Nhap n: "))
 if n >= 1000:
     result = 0

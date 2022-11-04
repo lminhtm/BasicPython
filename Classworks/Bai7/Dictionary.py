@@ -1,3 +1,7 @@
+"""
+Bai7. DICTIONARY
+"""
+
 # Khai bao
 dict1 = {1: "one", 2: "two", 3: "three"}
 dict2 = {"one": 1, "two": 2, "three": 3}

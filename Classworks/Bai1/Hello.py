@@ -1,6 +1,7 @@
 """
-Bai1. 08/10/2022
+Bai1. HELLO WORLD
 """
+
 print('Hello world')  # First line
 number = 100
 average = 8.5

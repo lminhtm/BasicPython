@@ -1,3 +1,7 @@
+"""
+Bai9. MODULE
+"""
+
 import diem_module
 import sublibs.string_module as string
 
