@@ -1,46 +1,40 @@
 # Cau2
 
-def check_valid_password(password):
-    # Length
-    if len(password) < 8 or len(password) > 20:
-        return False
-
-    # Prepare
+def check_has_special_character(password):
     special_charater = "@#$*&"
-    valid_character = "abcdefghijklmnopqrstuvwxyz0123456789@#$*&"
-    valid_az_character = "abcdefghijklmnopqrstuvwxyz"
-
-    # Special character
-    has_special_character = False
     for character in special_charater:
         if password.count(character) > 0:
-            has_special_character = True
-            break
-    if has_special_character == False:
-        return False
+            return True
+    return False
 
-    # Number
-    has_number = False
+def check_has_number(password):
     for character in password:
         if character.isdigit():
-            has_number = True
-            break
-    if has_number == False:
-        return False
+            return True
+    return False
 
-    # a-z, A-Z
-    has_valid_character = True
-    has_valid_uppercase_character = False
+def check_has_valid_character(password):
+    valid_character = "abcdefghijklmnopqrstuvwxyz0123456789@#$*&"
     for character in password:
         if valid_character.count(character.lower()) <= 0:
-            has_valid_character = False
-            break
-        if valid_az_character.upper().count(character) > 0:
-            has_valid_uppercase_character = True
-    if has_valid_character == False or has_valid_uppercase_character == False:
-        return False
-
+            return False
     return True
+
+def check_has_valid_uppercase(password):
+    valid_character = "abcdefghijklmnopqrstuvwxyz".upper()
+    for character in password:
+        if valid_character.count(character) > 0:
+            return True
+    return False
+
+def check_valid_password(password):
+    if len(password) >= 8 and len(password) <= 20 \
+            and check_has_special_character(password) \
+            and check_has_number(password) \
+            and check_has_valid_character(password) \
+            and check_has_valid_uppercase(password):
+        return True
+    return False
 
 while True:
     password = input("Enter you password: ")
