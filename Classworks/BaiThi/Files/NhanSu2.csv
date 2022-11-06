@@ -1,0 +1,19 @@
+Stt,Name,Dept,Salary,Overtime,Increase_Salary
+1,Nguyen Minh Khoi,KT,1650,1,Yes
+2,Tran Khanh Hung,KT,1500,0,No
+3,Le Trong Dat,KT,1650,1,Yes
+4,Pham Hoai Nam,KT,1500,0,No
+5,Le Trung Hieu,KT,1500,0,No
+6,Nguyen Hoang Dat,KT,1500,0,No
+7,Luong Thanh Trung,IT,1600,0,No
+8,Nguyen Phuoc Minh Suong,IT,1600,0,No
+9,Ngo Nhat Tin,IT,1600,0,No
+10,Nguyen Van Sy,IT,1760,1,Yes
+11,Phan Thao Nhi,IT,1600,0,No
+12,Nguyen Tan Ngoc Tam,IT,1760,1,Yes
+13,Nguyen Thi Thanh Hien,IT,1600,0,No
+14,Nguyen Hai Dang,TCHC,1450,0,No
+15,Nguyen Trong Duy,TCHC,1450,0,No
+16,Nguyen Thi Thanh Nhan,TCHC,1595,1,Yes
+17,Tran Thi Thao,TCHC,1450,0,No
+18,Tran Thuy Nhu Quynh,TCHC,1450,0,No
