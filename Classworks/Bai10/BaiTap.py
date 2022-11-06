@@ -16,35 +16,42 @@ list_file("Files", "txt")
 # Xu ly file CSV
 def read_csv_file(file_name):
     with open(file_name) as f:
-        for row in csv.reader(f):
+        reader = csv.reader(f)
+        header = list(next(reader))
+        rows = list(reader)
+        for row in rows:
             print(row)
+        return (header, rows)
 
 def get_diem(lop, rows):
     ret = list(filter(lambda x: x[2] == lop and x[3].isdigit(), rows))
     return ret[0][3]
 
-def cap_nhat_diem(file_name, new_file_name):
-    f = open(file_name, "r")
-    reader = csv.reader(f)
-    header = list(next(reader))
-    rows = list(reader)
-    f.close()
+def cap_nhat_diem(rows):
+    for row in rows:
+        if row[3] == "?":
+            row[3] = get_diem(row[2], rows)
+    return rows
 
+def xep_loai(header, rows):
+    xep_loai = lambda d: "Xuat Sac" if d >= 9 else "Gioi" if d >= 8 else "Kha" if d >= 7 else "Yeu"
     header.append("XepLoai")
     new_rows = [header]
     for row in rows:
-        stt, name, lop, diem = row[0], row[1], row[2], row[3]
-        xep_loai = lambda d: "Xuat Sac" if d >= 9 else "Gioi" if d >= 8 else "Kha" if d >= 7 else "Yeu"
-        if diem == "?":
-            diem = get_diem(lop, rows)
-        new_rows.append([stt, name, lop, diem, xep_loai(float(diem))])
+        row.append(xep_loai(float(row[3])))
+        new_rows.append(row)
+    return new_rows
 
-    a = open(new_file_name, "w")
+def write_csv_file(file_name, rows):
+    a = open(file_name, "w")
     writer = csv.writer(a)
-    writer.writerows(new_rows)
+    writer.writerows(rows)
     a.close()
 
-read_csv_file("Files/HocSinh.csv")
-cap_nhat_diem("Files/HocSinh.csv", "Files/HocSinh2.csv")
-print()
+data = read_csv_file("Files/HocSinh.csv")
+header = data[0]
+rows = data[1]
+rows = cap_nhat_diem(rows)
+rows = xep_loai(header, rows)
+write_csv_file("Files/HocSinh2.csv", rows)
 read_csv_file("Files/HocSinh2.csv")
